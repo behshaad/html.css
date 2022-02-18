@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  font-family: "Festive", cursive;
+}
+body {
+  background-color: rgba(102, 90, 90, 0.589);
+}
+.header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+.header-text {
+  color: aliceblue;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.header-sub-text {
+  font-size: 10px;
+  color: aliceblue;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-top: 4px;
+  display: inline-block;
+}
+.logo-section button {
+  border: none;
+  border-radius: 0.4px;
+}
+
+.header-sub-text {
+  color: aliceblue;
+}
+.gray-button {
+  background-color: grey;
+  cursor: pointer;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+.gray-button {
+  transition: all 0.2s;
+  background-color: #757575;
+}
+.singup-button {
+  background-color: green;
+  cursor: pointer;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  color: black;
+  transition: all 0.3s;
+}
+.singup-buttonsingup-button {
+  background-color: greenyellow;
+  color: white;
+}
+.form {
+  background-color: rgba(14, 206, 206, 0.822);
+  opacity: 0.3;
+  width: 30%;
+  margin: auto;
+  margin-top: 10%;
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  border: none;
+}
+.form h2 {
+  color: rgb(17, 16, 16);
+  text-align: center;
+  margin-bottom: 30px;
+}
+.form input {
+  margin: auto;
+  margin-top: 20px;
+  outline: none;
+  background: none;
+}
+.form button {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.form a {
+  text-decoration: none;
+  margin-left: 10px;
+}
+::placeholder {
+  color: white;
+  font-weight: bold;
+}
+input:focus::placeholder {
+  transform: translateY(-15px);
+  transition: all 0.2s;
+}
+.footer {
+  background-color: black;
+  color: ;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  position: fixed;
+  width: 300px;
+  transform: translate(-50%);
+  text-align: center;
+  padding: 12px;
+  border-radius: 8px;
+}
+@media only screen {
+  .logo-section button {
+    display: none;
+  }
+}
